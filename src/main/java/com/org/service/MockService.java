@@ -30,6 +30,7 @@ public class MockService {
 	}
 
 	public MockUtility getUtil() {
+		System.out.println("in getUtil!");
 		MockUtility util = new MockUtility();
 		return util;
 	}
