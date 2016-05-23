@@ -17,6 +17,7 @@ public class MockConstructionTest {
 
 	@Test
 	public void mockConstruction() throws Exception {
+		System.out.println("mockConstruction");
 		// init
 		final String name = "hello";
 		MockService mockService = new MockService();
