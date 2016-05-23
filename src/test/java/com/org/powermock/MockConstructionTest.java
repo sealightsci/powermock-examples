@@ -12,7 +12,7 @@ import com.org.service.MockService;
 import com.org.util.MockUtility;
 
 @RunWith(PowerMockRunner.class)
-@PrepareForTest(MockService.class)
+// @PrepareForTest(MockService.class)
 public class MockConstructionTest {
 
 	@Test
