@@ -11,8 +11,8 @@ import org.powermock.modules.junit4.PowerMockRunner;
 import com.org.service.MockService;
 import com.org.util.MockUtility;
 
-// @RunWith(PowerMockRunner.class)
-// @PrepareForTest(MockService.class)
+@RunWith(PowerMockRunner.class)
+@PrepareForTest(MockService.class)
 public class MockConstructionTest {
 
 	@Test
