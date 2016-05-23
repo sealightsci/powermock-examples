@@ -26,7 +26,7 @@ public class MockConstructionTest {
 		// return obj on no argument constructor call
 		PowerMockito.whenNew(MockUtility.class).withNoArguments().thenReturn(mockUtility);
 		MockUtility defaultConstructorMockUtility = mockService.getUtil();
-		assertEquals(name, defaultConstructorMockUtility.getName());
+		assertEquals("name", defaultConstructorMockUtility.getName());
 	}
 
 }
